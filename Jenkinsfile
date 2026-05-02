@@ -3,7 +3,7 @@ pipeline {
     environment {
         GIT_REPO_URL = 'https://github.com/dtrrselle/cicd-repo.git'
         GIT_CREDENTIALS_ID = 'github-pat2'
-        GIT_BRANCH = 'main'
+        GIT_BRANCH = 'master'
     }
     stages {
         stage('Checkout') {
